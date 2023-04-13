@@ -1,71 +1,106 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>Gaukhar's Web Page</title>
-</head>
-<body>
-  <h1>Welcome to My Web Page</h1>
-  <p>This is a paragraph of text. It can contain <em>emphasized</em> text, which isdisplayed in italics.</p>
-  <p>This is another paragraph of text. It can contain <strong>strong</strong> text,which is displayed in bold.</p>
-  <hr>
-  <h2>My Favorite Films</h2>
-  <ul>
-    <li>Zhauzhurek myn Bala</li>
-    <li>Qazaq Khandygy</li>
-    <li>Ertugrul</li>
-  </ul>
-  <h2>My Not-so-Favorite Films</h2>
-  <ol>
-    <li>Perekrestok</li>
-    <li>Santa Barbara</li>
-    <li>Gladiator?</li>
-  </ol>
-  <h2>My Favorite Foods</h2>
-  <ul>
-    <li>Besh and Sorpa</li>
-    <li>Sushi</li>
-    <li>Tacos</li>
-  </ul>
-  <h2>My Favorite Books</h2>
-  <ol>
-    <li>The Great Gatsby</li>
-    <li>To Kill a Mockingbird</li>
-    <li>1984</li>
-  </ol>
-  <!--<img src="https://via.placeholder.com/300" alt="Placeholder Image">
--->
-  <img src="/Users/gaukhar/Desktop/IMG_5817.jpeg" alt="Placeholder Image">
-  <br>
-  <a href="https://www.google.com">Click here to go to <em>Google</em></a>
-  <br>
-  <a href="https://www.nature.com">Click here to go to the website of journal <em>Nature</em></a>
-  <div>
-    <h3>About Me</h3>
-    <form>
-      <label for="Bio">Brief information about me:</label>
-      <p>Gaukhar Yestemirova, teaching at IT University.
-         MSc in Robotics, graduated from Boston University majoring in computer engineering.</p><br>
-    </form>
-  </div>
-  <div>
-    <h3>Contact Me</h3>
-    <form>
-      <label for="name">Name:</label><input type="text" id="name" name="name"><br>
-      <label for="email">Email:</label><input type="email" id="email" name="email"><br>
-      <label for="message">Message:</label><br>
-        <textarea id="message" name="message"></textarea><br><input type="submit" value="Submit">
-    </form>
-  </div>
-  <br>
-  <table>
-    <tr>
-      <th>Name</th>
-      <th>Age</th>
-    </tr>
-    <tr>
-      <td> Gaukhar, </td>
-      <td> a lot :D </td>
-    </tr>
-  </table>
-</body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="icon" type="Image/x-icon" href = "favicon.png">
+    <title>Gaukhar's Web Page</title>
+  </head>
+
+  <body>
+    <div>
+      <table cellspacing="20">
+        <tr>
+          <td>
+            <img src="profile1.jpg" alt="Profile Image" width="140" height="170">
+          </td>
+          <td>
+            <h2>Gaukhar Yestemirova's Website</h2>
+            <p><em>Computer Engineer, Senior-lecturer at AITU</p>
+            <address>
+              Department of Computer Engineering<br> 
+              Visit us at:astanait.edu.kz<br>
+              Mangilik El 53,<br>
+              Astana, Kazakhstan, 010000<br>
+              email: gaukhar.yestemirova@astanait.edu.kz
+            </address>
+          </td>
+        </tr>
+      </table>
+    </div>
+    
+    <div>
+      <h3>About Me &#128512;</h3>
+      <form>
+        <label for="Bio">Brief introduction:</label>
+        <p style="color: rgb(33, 81, 88);">My name is Gaukhar Yestemirova, I am currently teaching at Astana IT University.
+          This is an outline of my resume. Here I 
+          <strong>highlighted</strong> milestones of my career. 
+          If you have further questons, <a href="contact.html">contact me</a></p>
+        <p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
+        <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+      </form>
+    </div>
+
+    <hr>
+    <h3>Education</h3>
+    <ul>
+      <li><em><a href = "https://nu.edu.kz">Nazarbayev University</a></em>, MSc, Majored in Robotics</li>
+      <li><em><a href = "https://www.bu.edu/eng/academics/departments-and-divisions/electrical-and-computer-engineering/">Boston University</a></em>, BSc, Majored in computer engineering</li>
+       <p>Concentrated in commercialization of innovation technology</p>
+      <li>Almaty Kazakh-turkish high school for gifted girls, Graduated with Cum Laude</li>
+    </ul>
+    <hr>
+    <h3>My Books</h3>
+    <ol>
+      <li>The Light of the Hearts</li>
+      <li>Emotional Immune System</li>
+      <li>Critical Analysis of Abai's Phylosophy</li>
+    </ol>
+    <hr>
+    <div>
+      <h3>Skills</h3>
+      <table border="4" cellspacing="10">
+          <tr>
+            <td>Writing ⭐️ ⭐️ ⭐️ ⭐️ </td>
+            <td>Software development ⭐️ ⭐️ ⭐️ ⭐️</td>
+          </tr>
+          <tr>
+            <td>Cooking ⭐️ ⭐️ </td>
+            <td>Research ⭐️ ⭐️ ⭐️ ⭐️ </td>
+          </tr>
+          <tr>
+            <td>Sewing ⭐️ ⭐️ </td>
+            <td>Teaching ⭐️ ⭐️  😂</td>
+          </tr>
+      </table>
+    </div>
+  
+    <div>
+      <h3>Experience</h3>
+      <table border="4" cellspacing="10">
+        <thead> 
+          <tr>
+            <th>Dates</th>
+            <th>Experience</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2015-2018</td>
+            <td>Software developer, C/C++, Java</td>
+          </tr>
+          <tr>
+            <td>2018-2020</td>
+            <td>Researcher</td>
+          </tr>
+          <tr>
+            <td>2020-2023</td>
+            <td>Teaching and Research</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+  </body>
 </html>
